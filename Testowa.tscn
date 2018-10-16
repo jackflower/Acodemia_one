@@ -15,7 +15,7 @@ audio_bus_name = "Master"
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="0"]
 
 build_mode = 0
-polygon = PoolVector2Array(  )
+polygon = PoolVector2Array( -19, 24, -19, -4, -15, -8, -9, -8, -9, -13, -12, -13, -12, -21, -10, -24, 10, -24, 12, -20, 12, -13, 9, -13, 9, -8, 14, -8, 19, -3, 19, 24 )
 
 [node name="Sprite" type="Sprite" parent="." index="1"]
 
