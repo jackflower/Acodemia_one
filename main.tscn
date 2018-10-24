@@ -1,16 +1,31 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://player/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://elixir/Elixir.tscn" type="PackedScene" id=2]
+[ext_resource path="res://elixir/Elixir.tscn" type="PackedScene" id=1]
+[ext_resource path="res://keycontainer/KeyContainer.tscn" type="PackedScene" id=2]
+[ext_resource path="res://player/Player.tscn" type="PackedScene" id=3]
 
 [node name="main" type="Node2D" index="0"]
 
-[node name="Player" parent="." index="0" instance=ExtResource( 1 )]
-
-position = Vector2( 260.277, 295.71 )
-
-[node name="Elixir" parent="." index="1" instance=ExtResource( 2 )]
+[node name="Elixir" parent="." index="0" instance=ExtResource( 1 )]
 
 position = Vector2( 403.409, 143.635 )
+
+[node name="KeyContainer_01" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 156.157, 109.625 )
+
+[node name="KeyContainer_02" parent="." index="2" instance=ExtResource( 2 )]
+
+position = Vector2( 621.73, 117.877 )
+scale = Vector2( 2.07293, 1.97498 )
+
+[node name="KeyContainer_03" parent="." index="3" instance=ExtResource( 2 )]
+
+position = Vector2( 477.205, 315.042 )
+rotation = 0.801285
+
+[node name="Player" parent="." index="4" instance=ExtResource( 3 )]
+
+position = Vector2( 260.277, 295.71 )
 
 
