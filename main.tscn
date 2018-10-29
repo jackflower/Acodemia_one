@@ -13,7 +13,7 @@ position = Vector2( 403.409, 143.635 )
 
 [node name="KeyContainer_01" parent="." index="1" instance=ExtResource( 2 )]
 
-position = Vector2( 156.157, 109.625 )
+position = Vector2( 69.178, 55.9571 )
 
 [node name="KeyContainer_02" parent="." index="2" instance=ExtResource( 2 )]
 
@@ -27,10 +27,11 @@ rotation = 0.801285
 
 [node name="StorageBox" parent="." index="4" instance=ExtResource( 3 )]
 
-position = Vector2( 169.121, 264.589 )
+position = Vector2( 173.48, 225.991 )
+scale = Vector2( 3.12292, 3.03617 )
 
 [node name="Player" parent="." index="5" instance=ExtResource( 4 )]
 
-position = Vector2( 260.277, 295.71 )
+position = Vector2( 349.107, 421.552 )
 
 

@@ -23,6 +23,6 @@ func _on_Elixir_body_entered( body ):
 	if(body.has_method("update_item")):
 		item = self.name
 		body.update_item( item )
-	queue_free() # zagadka
+	#queue_free() # zagadka
 	pass
 	
