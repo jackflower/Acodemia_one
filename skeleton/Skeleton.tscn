@@ -32,7 +32,6 @@ bounce = 0.0
 
 frames = SubResource( 1 )
 animation = "skeleton_animation"
-frame = 2
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="1"]
