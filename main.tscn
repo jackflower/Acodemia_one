@@ -68,4 +68,9 @@ position = Vector2( 632.434, 180.651 )
 
 position = Vector2( 773.081, 238.02 )
 
+[node name="Skeleton" parent="." index="12" instance=ExtResource( 3 )]
+
+position = Vector2( 152.563, 510.413 )
+scale = Vector2( 3.18073, 3.24511 )
+
 
