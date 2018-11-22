@@ -1,8 +1,8 @@
 extends Area2D
 
-# 2018-10-20 acodemia.pl
+# 2018-11-21 acodemia.pl
 
-var item
+var coin
 
 #func _ready():
 #	#set_physics_process(true)
@@ -18,11 +18,11 @@ var item
 #	pass
 	
 	
-func _on_Elixir_body_entered( body ):
+func _on_SilverCoin_body_entered( body ):
 	print (self.name + ": znalazł mnie " + body.name)
-	if(body.has_method("update_item")):
-		item = self.name
-		body.update_item( item )
-	queue_free()
+	if(body.has_method("update_cash_silver")):
+		coin = self.name
+		body.update_cash_silver( coin )
+		queue_free()
 	pass
 	

@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://greed/stone/Stone.tscn" type="PackedScene" id=1]
+[ext_resource path="res://player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://greed/wolfdeath/WolfDeath.tscn" type="PackedScene" id=3]
+
+
+[node name="Jail" type="Node2D" index="0"]
+
+[node name="Stone_1" parent="." index="0" instance=ExtResource( 1 )]
+
+position = Vector2( 308.591, 172.018 )
+
+[node name="Stone_2" parent="." index="1" instance=ExtResource( 1 )]
+
+position = Vector2( 310.767, 333.336 )
+scale = Vector2( -1.13305, 1 )
+
+[node name="Stone_3" parent="." index="2" instance=ExtResource( 1 )]
+
+position = Vector2( 444.82, 435.484 )
+rotation = -0.934414
+scale = Vector2( -1.13305, 0.926014 )
+
+[node name="Stone_4" parent="." index="3" instance=ExtResource( 1 )]
+
+position = Vector2( 642.491, 349.145 )
+rotation = -0.934414
+scale = Vector2( -1.13305, 0.926014 )
+
+[node name="Stone_5" parent="." index="4" instance=ExtResource( 1 )]
+
+position = Vector2( 695.963, 251.588 )
+rotation = -0.934414
+scale = Vector2( -0.638356, -0.69176 )
+
+[node name="Stone_6" parent="." index="5" instance=ExtResource( 1 )]
+
+position = Vector2( 523.218, 154.03 )
+rotation = -1.26547
+scale = Vector2( -0.750037, -1.7428 )
+
+[node name="Player" parent="." index="6" instance=ExtResource( 2 )]
+
+position = Vector2( 500, 300 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="WolfDeath" parent="." index="7" instance=ExtResource( 3 )]
+
+position = Vector2( 424.1, 219.458 )
+
+
