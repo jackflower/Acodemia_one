@@ -14,6 +14,6 @@ config/name="Acodemia_one"
 run/main_scene="res://main.tscn"
 config/icon="res://acdemia_one_icon.png"
 
-[rendering]
+[autoload]
 
-environment/default_environment="res://default_env.tres"
+global="*res://global.gd"
