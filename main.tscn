@@ -6,10 +6,10 @@
 [ext_resource path="res://elixir/Elixir.tscn" type="PackedScene" id=4]
 [ext_resource path="res://greed/coins/GoldCoin.tscn" type="PackedScene" id=5]
 [ext_resource path="res://teleport/Teleport.tscn" type="PackedScene" id=6]
-[ext_resource path="res://player/Player.tscn" type="PackedScene" id=7]
-[ext_resource path="res://portal/Portal.tscn" type="PackedScene" id=8]
+[ext_resource path="res://portal/Portal.tscn" type="PackedScene" id=7]
+[ext_resource path="res://player/Player.tscn" type="PackedScene" id=8]
 
-[node name="main" type="Node2D" index="0"]
+[node name="main" type="Node2D"]
 
 [node name="StorageBox" parent="." index="0" instance=ExtResource( 1 )]
 
@@ -115,12 +115,12 @@ position = Vector2( 101.661, 429.763 )
 
 position = Vector2( 892.019, 428.563 )
 
-[node name="Player" parent="." index="13" instance=ExtResource( 7 )]
-
-position = Vector2( 674.044, 363.616 )
-
-[node name="Portal" parent="." index="14" instance=ExtResource( 8 )]
+[node name="Portal" parent="." index="13" instance=ExtResource( 7 )]
 
 position = Vector2( 555.112, 482.585 )
+
+[node name="Player" parent="." index="14" instance=ExtResource( 8 )]
+
+position = Vector2( 674.044, 363.616 )
 
 
