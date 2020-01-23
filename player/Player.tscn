@@ -36,17 +36,12 @@ script = ExtResource( 1 )
 
 frames = SubResource( 1 )
 animation = "worm_default_animation"
-frame = 7
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 
 visible = false
 shape = SubResource( 2 )
-
-[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="." index="2"]
-
-visible = false
-rect = Rect2( -10, -10, 20, 20 )
 
 

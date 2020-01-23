@@ -1,6 +1,6 @@
 extends Node2D
 
-# 2018-11-21 acodemia.pl
+# 2020-01-25 acodemia.pl
 
 var gold = 0
 var gold_allowed_amount = 3

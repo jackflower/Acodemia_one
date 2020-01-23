@@ -1,7 +1,10 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://beast/Beast.gd" type="Script" id=1]
-[ext_resource path="res://beast/beast.png" type="Texture" id=2]
+[ext_resource path="res://greed/jail/beast/Beast.gd" type="Script" id=1]
+[ext_resource path="res://greed/jail/beast/beast.png" type="Texture" id=2]
+
+
+
 
 [sub_resource type="CircleShape2D" id=1]
 

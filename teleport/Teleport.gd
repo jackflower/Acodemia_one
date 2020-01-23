@@ -1,6 +1,6 @@
 extends Area2D
 
-# 2018-11-24 acodemia.pl
+# 2020-01-25 acodemia.pl
 
 #func _ready():
 #	#set_physics_process(true)
@@ -27,4 +27,3 @@ func _on_Teleport_body_entered( body ):
 		var sceneToLoad = preload("res://greed/Greed.tscn")
 		get_tree().change_scene_to(sceneToLoad)
 	pass
-	

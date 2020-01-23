@@ -1,2 +1,0 @@
-# Singleton
-var napis = "Jacek"

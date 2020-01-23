@@ -1,10 +1,9 @@
 extends KinematicBody2D
 
-# 2018-10-20 acodemia.pl
+# 2020-01-25 acodemia.pl
 
-const MOTION_SPEED = 160 # Pixels/seconds
+const MOTION_SPEED = 160
 var health = 100
-var on_scene = false
 var elixirs = 0
 var cash_gold = 0
 var cash_silver = 0
@@ -15,7 +14,7 @@ var slyboots = false
 
 func _ready():
 	set_physics_process(true)
-	on_scene = true
+	#on_scene = true
 	pass
 	
 func _physics_process(delta):
@@ -48,15 +47,6 @@ func _physics_process(delta):
 		get_node("AnimatedSprite").play()
 		
 	
-func _on_VisibilityNotifier2D_enter_screen():
-	on_scene = true
-	pass
-	
-	
-func _on_VisibilityNotifier2D_exit_screen():
-	on_scene = false
-	pass
-	
 	
 func update_health(damage):
 	health -= damage
@@ -86,4 +76,4 @@ func update_cash_copper( item ):
 	print (self.name + ": znalazłem " + item)
 	cash_copper = cash_copper + 1
 	print ("Miedź: " + String(cash_copper))
-	pass	
+	pass
